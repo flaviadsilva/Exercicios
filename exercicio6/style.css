@@ -1,0 +1,54 @@
+body {
+  width: 100%;
+  height: 100vh;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background: url('../tabuada.jpg') no-repeat center center;
+  background-size: cover; /* Faz a imagem cobrir 100% da tela */
+  background: b;
+  color: #0f0f0f;
+  min-height: 100vh;
+  padding: 20px;display: flex;
+  justify-content: center;
+  align-items: center;
+  object-fit: contain;
+}
+  
+  .container {
+    background: #fff;
+    color: #333;
+    padding: 30px;
+    border-radius: 15px;
+    max-width: 400px;
+    margin: auto;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  }
+  
+  input {
+    padding: 10px;
+    width: 80%;
+    margin: 10px 0;
+    font-size: 16px;
+  }
+  
+  button {
+    padding: 10px 25px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    background-color: #6a87c7;
+    color: white;
+    border-radius: 5px;
+  }
+  
+  ul {
+    margin-top: 20px;
+    list-style-type: none;
+    padding: 0;
+    text-align: left;
+  }
+  
+  li {
+    font-size: 18px;
+    margin: 5px 0;
+  }
+  

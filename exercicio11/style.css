@@ -1,0 +1,44 @@
+body {
+    width: 100%;
+    height: 100vh;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    background: url('../caixa.jpg') no-repeat center center;
+    background-size: cover; /* Faz a imagem cobrir 100% da tela */
+    background: b;
+    color: #0f0f0f;
+    min-height: 100vh;
+    padding: 20px;display: flex;
+    justify-content: center;
+    align-items: center;
+    object-fit: contain;
+  }
+  
+  .container {
+    background-color: white;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    text-align: center;
+  }
+  
+  input {
+    padding: 10px;
+    width: 200px;
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #6a87c7;
+    color: white;
+    margin-bottom: 20px;
+    cursor: pointer;
+  }
+  
+  #resultado {
+    font-size: 18px;
+    margin-top: 10px;
+  }
+  

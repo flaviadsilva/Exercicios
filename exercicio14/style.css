@@ -1,0 +1,43 @@
+body {
+    width: 100%;
+    height: 100vh;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    background: url('../ticket.jpg') no-repeat center center;
+    background-size: cover; /* Faz a imagem cobrir 100% da tela */
+    background: b;
+    color: #0f0f0f;
+    min-height: 100vh;
+    padding: 20px;display: flex;
+    justify-content: center;
+    align-items: center;
+    object-fit: contain;
+  }
+  .container {
+    background-color: white;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    text-align: center;
+  }
+  
+  input {
+    padding: 10px;
+    width: 100px;
+    margin: 5px;
+    font-size: 16px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #6a87c7;
+    color: white;
+    margin-top: 10px;
+    cursor: pointer;
+  }
+  
+  #resultado {
+    font-size: 24px;
+    margin-top: 20px;
+  }
+  

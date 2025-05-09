@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Conversor de Temperatura</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="ex10.js"></script>
+</head>
+<body>
+  <div class="container">
+    <h2>Conversor de Temperatura</h2>
+    <input type="number" id="celsius" placeholder="Temperatura em Celsius">
+    
+    <div class="opcoes">
+      <label><input type="radio" name="escala" value="fahrenheit"> Fahrenheit (°F)</label>
+      <label><input type="radio" name="escala" value="kelvin"> Kelvin (K)</label>
+    </div>
+
+    <button onclick="converter()">Converter</button>
+
+    <div id="resultado"></div>
+  </div>
+
+</body>
+</html>
